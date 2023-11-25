@@ -1,0 +1,168 @@
+@import url(./reset.css);
+a{
+ text-decoration: none;
+ 
+}
+/*TODO HEADER Start */
+/*  
+.header-part{
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content:space-around;
+}
+.header-part .logo{
+  display: flex;
+  align-items: center;
+}
+.header-part .nav-links {
+  margin-top: 15px;
+}
+.btn{
+  margin-top: 15px;
+}
+*/
+button{
+  color: #fff;
+  background-color: #3A68B8;
+  border-radius: 5px;
+  padding: 7px 15px;
+  border: none;
+}
+.img{
+  width: 30px;
+}
+.nav-links, .btn{
+  display: none;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.header-part{
+  margin:0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media(min-width:390px){
+  .header-part{
+    margin:0px 20px;
+  }
+}
+@media(min-width:768px){
+  .fa-bars{
+    display: none;
+  }
+  .header-part{
+    margin: 0 auto;
+    width: 700px;
+    display: flex; 
+    justify-content: space-between;  
+}
+.nav-links,.btn{
+  display: flex;
+}
+}
+@media(min-width:1280px)
+{
+  .header-part{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content:s;
+  }
+  .header-part .logo{
+    display: flex;
+    align-items: center;
+  }
+  .header-part .nav-links {
+    margin-top: 10px;
+  }
+  .btn{
+    margin-top: 10px;
+  }
+  .nav-links,.btn{
+    display: flex;
+  }
+  .fa-bars{
+    display: none;
+  }
+}
+.nav-links{
+  width: 300px;
+  justify-content: space-between;
+}
+/*TODO HEADER Stop */
+
+
+
+
+/* TODO SECTION Start */
+
+
+.sec-side-right{
+  margin: auto;
+  width: 300px;
+
+}
+.sec-side-right img{
+  width: 100%;
+}
+.sec-side-left{
+  width: 300px;
+  margin: auto;
+}
+.sec-side-left .get-started{
+  margin: 10px 10px 0px 0px;
+}
+
+@media(min-width:375px){
+  .sec-side-right{
+    margin: auto;
+    width: 350px;
+  }
+  .sec-side-right img{
+    width: 100%;
+  }
+  .sec-side-left{
+    width: 350px;
+    margin: auto;
+  }
+  .sec-side-left .get-started{
+    margin: 10px 10px 0px 0px;
+  }
+  
+}
+
+
+@media(min-width:768px){}
+
+@media(min-width:1280px){
+.sec-side-left h1{
+  font-style: normal;
+
+}
+.sec-main{
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.sec-side-left  {
+  margin: 100px 50px;
+}
+.sec-side-left .lorem{
+  margin: 20px 0px;
+  
+}
+.sec-side-right{
+  width: 900px;
+}
+.sec-side-right img{
+  width: 100%;
+}
+.get-started{
+  margin:0px 20px 0px 0px;
+}
+}

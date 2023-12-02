@@ -10,6 +10,9 @@ a{
  color:#fff;
  
 }
+p{
+  color: #b3b5b9;
+}
 /*TODO HEADER Start */
 .logo-link{
   color:#28477e;
@@ -89,6 +92,35 @@ button{
   margin: 10px auto;
 
 }
+.nav-links{
+  width: 300px;
+  justify-content: space-between;
+
+}
+
+
+.sec-side-right{
+  margin: auto;
+  width: 300px;
+
+}
+.sec-side-right img{
+  width: 100%;
+}
+.sec-side-left{
+  width: 300px;
+  margin: auto;
+}
+.sec-side-left .get-started{
+  margin: 10px 10px 0px 0px;
+}
+.sec-partner-logo img{
+  display: block;
+  margin: auto;
+  width: 150px;
+  
+}
+
 @media(min-width:390px){
   .header-part{
     margin:0px 20px;
@@ -226,36 +258,22 @@ button{
     display: flex;
     justify-content: space-between;
   }
-}
-
-.nav-links{
-  width: 300px;
-  justify-content: space-between;
-
-}
-
-
-.sec-side-right{
-  margin: auto;
-  width: 300px;
-
-}
-.sec-side-right img{
-  width: 100%;
-}
-.sec-side-left{
-  width: 300px;
-  margin: auto;
-}
-.sec-side-left .get-started{
-  margin: 10px 10px 0px 0px;
-}
-.sec-partner-logo img{
-  display: block;
-  margin: auto;
-  width: 150px;
+  .sec-about{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+  }
   
+  .sec-about p{
+    margin: 15px 0px;
+  }
+  .left-side{
+    width: 500px;
+  }
+
 }
+
+
 @media(min-width:375px){
   .sec-side-right{
     margin: auto;

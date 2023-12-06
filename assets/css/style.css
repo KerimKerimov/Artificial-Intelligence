@@ -120,7 +120,23 @@ button{
   width: 150px;
   
 }
+ ul li{
+  color:#9d9fa5;
+  margin: 20px 0px;
+}
+footer div p{
+  margin: 10px 0px 20px 0px;
+}
 
+.color-fff{
+  color: #fff;
+}
+.color-fff img{
+  margin:0px 5px 0px 0px;
+}
+h4{
+  margin: 10px 0px;
+}
 @media(min-width:390px){
   .header-part{
     margin:0px 20px;
@@ -151,20 +167,16 @@ button{
 .sec-partner-logo img{
   width: 150px;
 }
-.apply-ai{
-  
-}
 .apply-ai-right {
   width: 500px;
 }
 }
-@media(min-width:1280px)
+@media(min-width:1080px)
 {
   .header-part{
     margin: 0 auto;
     width: 1200px;
     display: flex;
-    justify-content:s;
   }
   .header-part .logo{
     display: flex;
@@ -270,6 +282,13 @@ button{
   .left-side{
     width: 500px;
   }
+  footer{
+    display: flex;
+    justify-content: space-around;
+  }
+  footer div{
+    width: 200px;
+  }
 
 }
 
@@ -289,3 +308,4 @@ button{
   .sec-side-left .get-started{
     margin: 10px 10px 0px 0px;
   }
+}
